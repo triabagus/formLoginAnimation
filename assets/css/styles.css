@@ -102,6 +102,101 @@ img {
   border-bottom: 2px solid var(--white-color);
 }
 
+.login__icon,
+.login__eye{
+  font-size: 1.25rem;
+}
+
+.login__input{
+  width: 100%;
+  padding-block: .8rem;
+  background: none;
+  color: var(--white-color);
+  position: relative;
+  z-index: 1;
+}
+
+.login__box-input{
+  position: relative;
+}
+
+.login__label{
+  position: absolute;
+  left: 0;
+  top: 13px;
+  font-weight: var(--font-medium);
+  transition: top .3s font-size .3s; 
+}
+
+.login__eye{
+  position: absolute;
+  right: 0;
+  top: 18px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.login__box:nth-child(2) input{
+  padding-right: 1.8rem;
+}
+
+.login__check,
+.login__check-group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login__check{
+  margin-bottom: 1.5rem;
+}
+
+.login__check-label,
+.login__forgot,
+.login__register{
+  font-size: var(--small-font-size);
+}
+
+.login__check-group{
+  column-gap: .5rem;
+}
+
+.login__check-input{
+  width: 16px;
+  height: 16px;
+}
+
+.login__forgot{
+  color: var(--white-color);
+}
+
+.login__forgot:hover{
+  text-decoration: underline;
+}
+
+.login__button{
+  width: 100%;
+  padding: 1rem;
+  border-radius: .5rem;
+  background: var(--white-color);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.login__register{
+  text-align: center;
+}
+
+.login__register a{
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+}
+
+.login__register a:hover{
+  text-decoration: underline;
+}
+
 /* Input focus move up label */
 
 
