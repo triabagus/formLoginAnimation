@@ -125,7 +125,7 @@ img {
   left: 0;
   top: 13px;
   font-weight: var(--font-medium);
-  transition: top .3s font-size .3s; 
+  transition: top .3s, font-size .3s; 
 }
 
 .login__eye{
